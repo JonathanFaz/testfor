@@ -19,7 +19,7 @@ jobs:
   # This workflow contains a single job called "build"
   job1:
     # The type of runner that the job will run on
-    runs-on: k8s-runners
+    runs-on: jona-runner
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -35,7 +35,7 @@ jobs:
         run: sleep 5
   job2:
     # The type of runner that the job will run on
-    runs-on: k8s-runners
+    runs-on: jona-runner
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -51,7 +51,7 @@ jobs:
         run: sleep 5
   job3:
     # The type of runner that the job will run on
-    runs-on: k8s-runners
+    runs-on: jona-runner
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -67,7 +67,7 @@ jobs:
         run: sleep 5
   job4:
     # The type of runner that the job will run on
-    runs-on: k8s-runners
+    runs-on: jona-runner
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
